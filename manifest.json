@@ -1,73 +1,91 @@
 ﻿{
-  "maintainer": "anka-afk",
+  "maintainer": "inertialobs",
   "source": {
     "subpath": ".",
     "ref": "main",
-    "repo": "anka-afk/astrbot-meme-pack-official-01",
+    "repo": "inertialobs/astrbot-meme-pack-astgenne",
     "type": "github"
   },
-  "id": "official-001",
-  "tags": ["official", "default", "starter"],
+  "id": "astgenne-001",
+  "tags": [
+    "astgenne",
+    "arknights",
+    "vtuber",
+    "chibi",
+    "gif"
+  ],
   "version": "1.0.0",
-  "description": "Astrbot mememanager 官方初始表情包。",
-  "name": "官方表情包1号",
+  "description": "Astgenne（星极）Q 版 GIF 表情包，共 115 张，覆盖日常聊天、直播、工作、吃喝与武器道具等场景。",
+  "name": "Astgenne 表情包",
   "categories": {
     "angry": {
-      "description": "当对话包含抱怨、批评或激烈反对时使用（如用户投诉/观点反驳）"
+      "description": "生气、恼怒、不耐烦或威胁时使用（如被冒犯、催促、表达强烈反对）"
     },
     "baka": {
-      "description": "轻微责备或吐槽（低级错误/可爱型抱怨）禁用程度：友善级"
+      "description": "吐槽、轻微责备或开玩笑式嫌弃时使用（如对方犯傻、被逗乐后指指点点）"
     },
     "color": {
-      "description": "社交场景中的暧昧表达（调情）使用频率≤1次/对话"
+      "description": "暧昧、调情或表达爱意时使用（情书、爱心、玫瑰、收到喜欢通知）"
     },
     "confused": {
-      "description": "请求澄清或表达理解障碍时（概念模糊/逻辑矛盾）或对于用户的请求感到困惑"
+      "description": "困惑、不解、头脑空白时使用（如没听懂、逻辑矛盾、问号脸）"
     },
     "cpu": {
-      "description": "技术讨论中表示思维卡顿（复杂问题/需要加载时间）"
+      "description": "技术问题、加载中或思维卡顿时使用（如 Bug、等待响应）"
+    },
+    "food": {
+      "description": "吃东西、喝饮料、嘴馋或庆祝蛋糕时使用（馋、蛋糕、到达餐桌）"
     },
     "fool": {
-      "description": "自嘲或缓和气氛的幽默场景（小失误/无伤大雅的玩笑）"
+      "description": "自嘲、摆烂、尴尬或搞笑场景使用（坐牢、垃圾桶、死亡、自我安慰）"
     },
     "givemoney": {
-      "description": "涉及报酬讨论时使用（服务付费/奖励机制）需配合明确金额"
+      "description": "涉及要钱、红包、打赏或报酬时使用（要米、红包、硬币、Bits）"
     },
     "happy": {
-      "description": "用于成功确认、积极反馈或庆祝场景（问题解决/获得成就）"
+      "description": "开心、庆祝、成功或鼓励时使用（庆祝、得分满分、加油、笑、节日）"
     },
     "like": {
-      "description": "表达对事物或观点的喜爱（美食/艺术/优秀方案）"
+      "description": "表达喜欢、赞美、收藏或觉得帅气时使用（点赞、爱心通知、墨镜、收藏）"
     },
     "meow": {
-      "description": "卖萌或萌系互动场景（宠物话题/安抚情绪）慎用于正式场合"
+      "description": "卖萌、撒娇或猫系互动时使用（摸头、舔舔）"
     },
     "morning": {
-      "description": "早安问候专用（UTC时间6:00-10:00）跨时区需换算"
+      "description": "早安问候或清晨场景使用（喝饮料、打招呼）"
+    },
+    "music": {
+      "description": "唱歌、打 call、应援或音效场景使用（唱歌、摇铃、荧光棒）"
     },
     "reply": {
-      "description": "等待用户反馈时（提问后/需要确认）最长间隔30分钟"
+      "description": "等待回应、确认或表达想法时使用（点头、摇头、指向、期待、出主意）"
     },
     "sad": {
-      "description": "表达伤心, 歉意、遗憾或安慰场景（遇到挫折/传达坏消息）"
+      "description": "伤心、失败、失落或道歉时使用（哭泣、得分 0 分）"
     },
     "see": {
-      "description": "表示偷瞄或持续关注（监控进度/观察变化）常与时间词搭配"
+      "description": "观察、偷看、记录或抓拍时使用（冒泡、抓拍、记录）"
     },
     "shy": {
-      "description": "涉及隐私话题或收到赞美时（个人故事/外貌评价）"
+      "description": "害羞、紧张、被夸或涉及隐私时使用（害羞、紧张）"
     },
     "sigh": {
-      "description": "表达无奈, 无语或感慨（重复问题/历史遗留难题）"
+      "description": "无奈、无语、疲惫或不想说话时使用（流汗、停止工作）"
     },
     "sleep": {
-      "description": "涉及作息场景（熬夜/疲劳/休息建议）"
+      "description": "睡觉、休息、犯困或催眠时使用（睡觉各阶段、工作小睡、催眠）"
     },
     "surprised": {
-      "description": "响应超出预期的信息（重大发现/意外转折）注意：轻微惊讶慎用"
+      "description": "惊讶、震惊或意外时使用（叹号、惊吓）"
+    },
+    "vtuber": {
+      "description": "虚拟主播或直播场景使用（PNGTuber、TrashTuber、Popcat、Raid、到达）"
+    },
+    "weapon": {
+      "description": "使用武器或道具时使用（刀、枪、撬棍、喷剂、拍蝇、胶带）"
     },
     "work": {
-      "description": "工作流程相关场景（任务分配/进度汇报）"
+      "description": "工作、学习、打字或通勤时使用（工作状态、打字、画板、驾驶）"
     }
   },
   "license": "CC-BY-NC-SA-4.0"
